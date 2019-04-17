@@ -4711,6 +4711,42 @@ html:lang(xa) body:not(.comments-page) .link.linkflair-announcement {
     border-left-color: #2a2!important
 }
 
+html:lang(xs) body:not(.comments-page) .link.linkflair-shipping {
+    display: none
+}
+
+.flairselector .linkflair-shipping>.linkflairlabel,
+.side .md a[href*="flair:shipping"],
+.wiki-page .wiki-page-content .md a[href*="flair:shipping"] {
+    background-color: #640089
+}
+
+.link.linkflair-shipping:hover {
+    box-shadow: inset 25px 0 0 0 #640089!important
+}
+
+.link.linkflair-shipping {
+    border-left-color: #640089!important
+}
+
+html:lang(xj) body:not(.comments-page) .link.linkflair-originalcontent {
+    display: none
+}
+
+.flairselector .linkflair-originalcontent>.linkflairlabel,
+.side .md a[href*="flair:originalcontent"],
+.wiki-page .wiki-page-content .md a[href*="flair:originalcontent"] {
+    background-color: #660800
+}
+
+.link.linkflair-originalcontent:hover {
+    box-shadow: inset 25px 0 0 0 #660800!important
+}
+
+.link.linkflair-originalcontent {
+    border-left-color: #660800!important
+}
+
 .post-submitter .link:not(.linkflair) .flairselectbtn {
     position: relative;
     font-weight: 700;
